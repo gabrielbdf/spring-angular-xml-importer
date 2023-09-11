@@ -3,13 +3,13 @@
 Este projeto consiste na criação de um serviço em Spring Boot para consumo de um arquivo xml e gravação no banco de dados Postgres
 
 
-Tecnologias utilizadas:
-Angular 16.2.0
-Angular Material 16.2.3
-Spring Boot 3.1.2
-Postgresql 16rc1 
-Docker
-NodeJS
+* Tecnologias utilizadas:
+* Angular 16.2.0
+* Angular Material 16.2.3
+* Spring Boot 3.1.2
+* Postgresql 16rc1 
+* Docker
+* NodeJS
 
 ## Requerimentos
 
