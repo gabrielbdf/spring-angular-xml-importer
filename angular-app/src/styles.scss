@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.nav-container {
+    height: calc(100vh - 56px);
+}
+
+.p-2 {
+    padding: 12px;
+}
+
+.file-upload-box {
+    border: 2px dotted #858585;
+    background-color: #dcdbdb;
+    padding: 10px;
+
+    .internal {
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.file-list-sended {
+    .file-item {
+        display: flex;
+        border: 2px dotted #afaeae;
+        margin-top: 12px;
+        padding: 10px;
+
+        .file-icon {
+            width: 50px;
+
+            mat-icon {
+                zoom: 1.4;
+            }
+        }
+
+        .file-name {
+            color: #afaeae;
+            width: calc(100% - 50px);
+        }
+    }
+
+}
